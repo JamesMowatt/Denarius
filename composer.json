@@ -1,0 +1,14 @@
+{
+    "name": "jmowatt/denarius",
+    "description": "A money package based on Martin Fowler's money pattern",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Mowatt",
+            "email": "james@james-mowatt.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
