@@ -12,14 +12,16 @@ class Money
 
     /**
      * Money constructor.
+     *
      * @param $amount
      * @param Currency $currency
+     *
      * @throws NotIntegerException
      */
     public function __construct($amount, Currency $currency)
     {
         if (gettype($amount) != 'integer') {
-            throw new NotIntegerException;
+            throw new NotIntegerException();
         }
 
         $this->amount = $amount;

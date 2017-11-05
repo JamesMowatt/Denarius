@@ -2,9 +2,9 @@
 
 namespace JamesMowatt\Denarius\Exceptions;
 
-use \Exception;
+use Exception;
 
 class NotIntegerException extends Exception
 {
-    protected $message = "You can only set an integer here";
+    protected $message = 'You can only set an integer here';
 }

@@ -27,9 +27,9 @@ class MoneyTest extends TestCase
     public function dataFormatProvider()
     {
         return [
-            [(double)3.00],
-            [(float)3.0],
-            ["3.00"],
+            [(float) 3.00],
+            [(float) 3.0],
+            ['3.00'],
         ];
     }
 }
