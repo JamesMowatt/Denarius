@@ -8,6 +8,7 @@ class Currency
 
     /**
      * Currency constructor.
+     *
      * @param $currencyCode
      */
     public function __construct($currencyCode)
