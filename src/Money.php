@@ -18,7 +18,7 @@ class Money
      */
     public function __construct($amount, Currency $currency)
     {
-        if(gettype($amount) != 'integer') {
+        if (gettype($amount) != 'integer') {
             throw new NotIntegerException;
         }
 
